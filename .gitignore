@@ -1,0 +1,36 @@
+# 编译产物
+*.o
+*.a
+*.so
+*.dylib
+
+# 可执行文件
+zombie
+brain
+violence
+replace
+harl
+harlFilter
+*.out
+a.out
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.log
+
+# 对比和辅助文件（不需要上传）
+*_comparison.c
+*_explanation.cpp
+*_explanation.c
+
