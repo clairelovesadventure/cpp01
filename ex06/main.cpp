@@ -24,13 +24,11 @@ int main(int argc, char* argv[]) {
 	switch (levelIndex) {
 		case 0:
 			harl.complain("DEBUG");
-			// fall through
+			// there is a concept of fall through: if there is no break, the code will fall through to the next case
 		case 1:
 			harl.complain("INFO");
-			// fall through
 		case 2:
 			harl.complain("WARNING");
-			// fall through
 		case 3:
 			harl.complain("ERROR");
 			break;
