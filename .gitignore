@@ -3,7 +3,8 @@
 *.a
 *.so
 *.dylib
-
+.pdf
+.md
 # 可执行文件
 zombie
 brain
